@@ -15,15 +15,15 @@ public class Server {
 
         @Override
         public Person getPersonByName(String name) {
-            System.out.println("tesdst1");
-            System.out.println("test2");
-            logger.info("\n\ninvoke just name -----");
+            System.out.println("tesd23st1");
+            System.out.println("tes31t2");
+            logger.info("\n\ninvo2ke3ksid just name -----");
             return new Person(name);
         }
 
         @Override
         public Person getPersonByAge(int age) {
-            logger.info("\n\ninvoke just age ------");
+            logger.info("\n\ninvoke jsddwust age ------");
             return new Person(age );
         }
 
